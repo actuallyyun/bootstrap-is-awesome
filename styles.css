@@ -4,13 +4,27 @@
 }
 
 .carousel-inner {
-    width: 80%;
+    width: 85%;
 
 }
 
 .carousel-caption {
     padding: 0;
-    right: 50%;
+    left: 10%;
     text-align: left;
     width: 45%;
+    top: 10%;
+}
+
+
+/* NavBar */
+.btn-light {
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 0.5em;
+    align-items: center;
+}
+
+#second-nav {
+    justify-content: start;
 }
