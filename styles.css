@@ -29,7 +29,33 @@
     justify-content: start;
 }
 
-.card:hover {
-    border-color: green;
-    font-style: green;
+
+
+@media screen and (max-width:992px) {
+
+    #banner-carousel h2 {
+        font-size: 152%;
+
+    }
+
+    #banner-carousel a {
+        font-size: 100%;
+    }
+
+    #banner-carousel p {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    #banner-carousel h2 {
+        font-size: 120%;
+
+    }
+
+    #banner-carousel a {
+        font-size: 70%;
+    }
+
 }
