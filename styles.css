@@ -28,3 +28,8 @@
 #second-nav {
     justify-content: start;
 }
+
+.card:hover {
+    border-color: green;
+    font-style: green;
+}
